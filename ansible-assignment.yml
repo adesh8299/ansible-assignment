@@ -1,0 +1,7 @@
+---
+- name: ansible-assignment
+  hosts: ansible
+  become: yes
+  gather_facts: false
+  roles:
+    - myrole
